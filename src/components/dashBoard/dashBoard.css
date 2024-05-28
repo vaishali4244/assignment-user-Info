@@ -1,0 +1,45 @@
+.container {
+  background-color: #aedbed;
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  row-gap: 3vh;
+}
+
+h1 {
+  background-color: rgb(98, 177, 208);
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 1vh 2vw;
+  box-sizing: border-box;
+}
+
+.searchBar {
+  min-height: 13vh;
+  min-width: 60vw;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: skyblue;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  padding: 1vh 3vw;
+}
+
+#searchInput {
+  height: 2.2rem;
+  min-width: 35vw;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding-left: 1.5vw;
+  margin-left: 2vw;
+}

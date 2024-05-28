@@ -1,0 +1,30 @@
+.user-details {
+  border: 1px solid skyblue;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 24vh;
+  width: 70vw;
+  margin: 2vh 2vw;
+  padding: 2vh 4vw;
+  border-radius: 15px;
+}
+
+.user-details p {
+  margin: 0.2rem 0;
+  color: rgb(18, 18, 90);
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+.user-details span {
+  color: black;
+  font-weight: 500;
+  font-size: 1.05rem;
+  letter-spacing: 00;
+}
+
+.email {
+  word-wrap: break-word;
+}
